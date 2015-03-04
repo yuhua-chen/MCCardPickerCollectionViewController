@@ -2,7 +2,8 @@
 
 A card collection view controller inspired by Facebook People you may know.
 
-![screen-shot](https://rawgithub.com/yuhua-chen/MCCardPickerCollectionViewController/master/screen-shot-left.gif)
+Take a while for screenshot :p   
+![screen-shot](https://raw.githubusercontent.com/yuhua-chen/MCCardPickerCollectionViewController/master/demo.gif)
 
 # Compatibility
 
