@@ -17,7 +17,7 @@
 		8C1948511AA6A85A007799AE /* MCCardPickerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1948501AA6A85A007799AE /* MCCardPickerCollectionViewController.m */; };
 		8C1948551AA6A896007799AE /* MCCardPickerCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1948541AA6A896007799AE /* MCCardPickerCollectionViewFlowLayout.m */; };
 		8C1948581AA6AFE3007799AE /* MCSampleCardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1948571AA6AFE3007799AE /* MCSampleCardCollectionViewCell.m */; };
-		8C19485C1AA6B07A007799AE /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C19485B1AA6B07A007799AE /* UIImage+ImageEffects.m */; };
+		8C1948621AA70431007799AE /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1948611AA70431007799AE /* UIImage+ImageEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,8 @@
 		8C1948541AA6A896007799AE /* MCCardPickerCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCCardPickerCollectionViewFlowLayout.m; path = src/MCCardPickerCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		8C1948561AA6AFE3007799AE /* MCSampleCardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSampleCardCollectionViewCell.h; sourceTree = "<group>"; };
 		8C1948571AA6AFE3007799AE /* MCSampleCardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSampleCardCollectionViewCell.m; sourceTree = "<group>"; };
-		8C19485A1AA6B07A007799AE /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		8C19485B1AA6B07A007799AE /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		8C1948601AA70431007799AE /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		8C1948611AA70431007799AE /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 				8C1948311AA6A658007799AE /* ViewController.m */,
 				8C1948561AA6AFE3007799AE /* MCSampleCardCollectionViewCell.h */,
 				8C1948571AA6AFE3007799AE /* MCSampleCardCollectionViewCell.m */,
-				8C1948591AA6B07A007799AE /* UIImageEffects */,
+				8C19485F1AA70431007799AE /* UIImageEffects */,
 				8C1948331AA6A658007799AE /* Main.storyboard */,
 				8C1948361AA6A658007799AE /* Images.xcassets */,
 				8C1948381AA6A658007799AE /* LaunchScreen.xib */,
@@ -146,14 +146,13 @@
 			name = src;
 			sourceTree = "<group>";
 		};
-		8C1948591AA6B07A007799AE /* UIImageEffects */ = {
+		8C19485F1AA70431007799AE /* UIImageEffects */ = {
 			isa = PBXGroup;
 			children = (
-				8C19485A1AA6B07A007799AE /* UIImage+ImageEffects.h */,
-				8C19485B1AA6B07A007799AE /* UIImage+ImageEffects.m */,
+				8C1948601AA70431007799AE /* UIImage+ImageEffects.h */,
+				8C1948611AA70431007799AE /* UIImage+ImageEffects.m */,
 			);
-			name = UIImageEffects;
-			path = ../../../Documents/citytalk_ios/Citytalk/Citytalk/ExternalLibraries/UIImageEffects;
+			path = UIImageEffects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +257,7 @@
 			files = (
 				8C1948511AA6A85A007799AE /* MCCardPickerCollectionViewController.m in Sources */,
 				8C1948321AA6A658007799AE /* ViewController.m in Sources */,
-				8C19485C1AA6B07A007799AE /* UIImage+ImageEffects.m in Sources */,
+				8C1948621AA70431007799AE /* UIImage+ImageEffects.m in Sources */,
 				8C19482F1AA6A658007799AE /* AppDelegate.m in Sources */,
 				8C19482C1AA6A658007799AE /* main.m in Sources */,
 				8C1948581AA6AFE3007799AE /* MCSampleCardCollectionViewCell.m in Sources */,
@@ -455,6 +454,7 @@
 				8C19484B1AA6A658007799AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C19484C1AA6A658007799AE /* Build configuration list for PBXNativeTarget "MCCardPickerCollectionViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +463,7 @@
 				8C19484E1AA6A658007799AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
