@@ -15,7 +15,7 @@ Simply drag and drop the classes under `/src` folder and use it like normal coll
 
 To initialize the `MCCardPickerCollectionViewController`
 
-```
+```objc
 MCCardPickerCollectionViewController *cardViewController = [[MCCardPickerCollectionViewController alloc] init];
 	cardViewController.delegate = self;
 	//Don't forget to register cell like usual collection view.
@@ -24,7 +24,7 @@ MCCardPickerCollectionViewController *cardViewController = [[MCCardPickerCollect
 
 and implement the delegate:
 
-```
+```objc
 - (void)cardPickerCollectionViewController:(MCCardPickerCollectionViewController *)cardPickerCollectionViewController preparePresentingView:(UIView *)presentingView fromSelectedCell:(UICollectionViewCell *)cell
 {
     //Do whatever you want to prepare for the presenting view.
@@ -35,31 +35,31 @@ and implement the delegate:
 
 To present view controler, we use our own method to present instead of `presentViewController:animated:completion:` in order to keep the transparent background. 
 
-```
+```objc
 - (void)presentInViewController:(UIViewController *)viewController;
 ```
 
 To dismiss view controller, likewise we use our own method:
 
-```
+```objc
 - (void)dismissFromParentViewController;
 ```
 
 Moreover there are some properties of `MCCardPickerCollectionViewFlowLayout` you can adjust. If you want to change the padding of cards, you can just set `minimumLineSpacing`:
 
-```
+```objc
 cardViewController.layout.minimumLineSpacing = 40;
 ```
 
 and the bouncing velocity of centering card by setting `flickVelocity`:
 
-```
+```objc
 cardViewController.layout.flickVelocity = 0.5;
 ```
 
 The current page means the card number user picked:
 
-```
+```objc
 NSInteger currentIndex = cardViewController.layout.currentIndex;
 ```
 
