@@ -57,7 +57,7 @@ and the bouncing velocity of centering card by setting `flickVelocity`:
 cardViewController.layout.flickVelocity = 0.5;
 ```
 
-The current page means the card number user picked:
+The current index means the card number user picked:
 
 ```objc
 NSInteger currentIndex = cardViewController.layout.currentIndex;
