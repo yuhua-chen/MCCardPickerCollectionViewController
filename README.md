@@ -11,7 +11,7 @@ Required on iOS 7.
 
 # Usage
 
-Simply drag and drop the classes under `/src` folder and use it like normal collection view controller.
+Simply drag and drop the classes under `/Classes` folder and use it like normal collection view controller.
 
 To initialize the `MCCardPickerCollectionViewController`
 
