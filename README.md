@@ -1,3 +1,4 @@
+![cocoapod-badge](https://cocoapod-badges.herokuapp.com/v/MCCardPickerCollectionViewController/badge.png)
 # MCCardPickerCollectionViewController
 
 A card collection view controller inspired by Facebook People you may know.
