@@ -14,10 +14,10 @@
 		8C1948371AA6A658007799AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1948361AA6A658007799AE /* Images.xcassets */; };
 		8C19483A1AA6A658007799AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1948381AA6A658007799AE /* LaunchScreen.xib */; };
 		8C1948461AA6A658007799AE /* MCCardPickerCollectionViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1948451AA6A658007799AE /* MCCardPickerCollectionViewControllerTests.m */; };
-		8C1948511AA6A85A007799AE /* MCCardPickerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1948501AA6A85A007799AE /* MCCardPickerCollectionViewController.m */; };
-		8C1948551AA6A896007799AE /* MCCardPickerCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1948541AA6A896007799AE /* MCCardPickerCollectionViewFlowLayout.m */; };
 		8C1948581AA6AFE3007799AE /* MCSampleCardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1948571AA6AFE3007799AE /* MCSampleCardCollectionViewCell.m */; };
 		8C1948621AA70431007799AE /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1948611AA70431007799AE /* UIImage+ImageEffects.m */; };
+		8CFC95EF1AAD8DFF00AFC2CE /* MCCardPickerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC95EC1AAD8DFF00AFC2CE /* MCCardPickerCollectionViewController.m */; };
+		8CFC95F01AAD8DFF00AFC2CE /* MCCardPickerCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC95EE1AAD8DFF00AFC2CE /* MCCardPickerCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +44,14 @@
 		8C19483F1AA6A658007799AE /* MCCardPickerCollectionViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCCardPickerCollectionViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1948441AA6A658007799AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C1948451AA6A658007799AE /* MCCardPickerCollectionViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCCardPickerCollectionViewControllerTests.m; sourceTree = "<group>"; };
-		8C19484F1AA6A85A007799AE /* MCCardPickerCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCCardPickerCollectionViewController.h; path = src/MCCardPickerCollectionViewController.h; sourceTree = "<group>"; };
-		8C1948501AA6A85A007799AE /* MCCardPickerCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCCardPickerCollectionViewController.m; path = src/MCCardPickerCollectionViewController.m; sourceTree = "<group>"; };
-		8C1948531AA6A896007799AE /* MCCardPickerCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCCardPickerCollectionViewFlowLayout.h; path = src/MCCardPickerCollectionViewFlowLayout.h; sourceTree = "<group>"; };
-		8C1948541AA6A896007799AE /* MCCardPickerCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCCardPickerCollectionViewFlowLayout.m; path = src/MCCardPickerCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		8C1948561AA6AFE3007799AE /* MCSampleCardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSampleCardCollectionViewCell.h; sourceTree = "<group>"; };
 		8C1948571AA6AFE3007799AE /* MCSampleCardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSampleCardCollectionViewCell.m; sourceTree = "<group>"; };
 		8C1948601AA70431007799AE /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		8C1948611AA70431007799AE /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		8CFC95EB1AAD8DFF00AFC2CE /* MCCardPickerCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCCardPickerCollectionViewController.h; path = Classes/MCCardPickerCollectionViewController.h; sourceTree = "<group>"; };
+		8CFC95EC1AAD8DFF00AFC2CE /* MCCardPickerCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCCardPickerCollectionViewController.m; path = Classes/MCCardPickerCollectionViewController.m; sourceTree = "<group>"; };
+		8CFC95ED1AAD8DFF00AFC2CE /* MCCardPickerCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCCardPickerCollectionViewFlowLayout.h; path = Classes/MCCardPickerCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		8CFC95EE1AAD8DFF00AFC2CE /* MCCardPickerCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCCardPickerCollectionViewFlowLayout.m; path = Classes/MCCardPickerCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			children = (
 				8C19482D1AA6A658007799AE /* AppDelegate.h */,
 				8C19482E1AA6A658007799AE /* AppDelegate.m */,
-				8C1948521AA6A860007799AE /* src */,
+				8C1948521AA6A860007799AE /* Classes */,
 				8C1948301AA6A658007799AE /* ViewController.h */,
 				8C1948311AA6A658007799AE /* ViewController.m */,
 				8C1948561AA6AFE3007799AE /* MCSampleCardCollectionViewCell.h */,
@@ -135,15 +135,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8C1948521AA6A860007799AE /* src */ = {
+		8C1948521AA6A860007799AE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8C19484F1AA6A85A007799AE /* MCCardPickerCollectionViewController.h */,
-				8C1948501AA6A85A007799AE /* MCCardPickerCollectionViewController.m */,
-				8C1948531AA6A896007799AE /* MCCardPickerCollectionViewFlowLayout.h */,
-				8C1948541AA6A896007799AE /* MCCardPickerCollectionViewFlowLayout.m */,
+				8CFC95EB1AAD8DFF00AFC2CE /* MCCardPickerCollectionViewController.h */,
+				8CFC95EC1AAD8DFF00AFC2CE /* MCCardPickerCollectionViewController.m */,
+				8CFC95ED1AAD8DFF00AFC2CE /* MCCardPickerCollectionViewFlowLayout.h */,
+				8CFC95EE1AAD8DFF00AFC2CE /* MCCardPickerCollectionViewFlowLayout.m */,
 			);
-			name = src;
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		8C19485F1AA70431007799AE /* UIImageEffects */ = {
@@ -255,13 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C1948511AA6A85A007799AE /* MCCardPickerCollectionViewController.m in Sources */,
+				8CFC95F01AAD8DFF00AFC2CE /* MCCardPickerCollectionViewFlowLayout.m in Sources */,
+				8CFC95EF1AAD8DFF00AFC2CE /* MCCardPickerCollectionViewController.m in Sources */,
 				8C1948321AA6A658007799AE /* ViewController.m in Sources */,
 				8C1948621AA70431007799AE /* UIImage+ImageEffects.m in Sources */,
 				8C19482F1AA6A658007799AE /* AppDelegate.m in Sources */,
 				8C19482C1AA6A658007799AE /* main.m in Sources */,
 				8C1948581AA6AFE3007799AE /* MCSampleCardCollectionViewCell.m in Sources */,
-				8C1948551AA6A896007799AE /* MCCardPickerCollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
